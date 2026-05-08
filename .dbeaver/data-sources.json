@@ -4,7 +4,8 @@
 		"postgres-jdbc-189201143fb-1cb8aee3e98557f4": {
 			"provider": "postgresql",
 			"driver": "postgres-jdbc",
-			"name": "PostgreSQL@localhost",
+			"name": "PostgreSQL_db1_shared_to_all",
+			"save-password": true,
 			"shared-credentials": true,
 			"configuration": {
 				"host": "localhost",
