@@ -92,7 +92,7 @@
 		"cql-19e07267f5f-3df45c7ef6c97320": {
 			"provider": "mongodb",
 			"driver": "cql",
-			"name": "MongoDB@localhost",
+			"name": "MongoDB test",
 			"configuration": {
 				"host": "localhost",
 				"port": "27017",
@@ -105,7 +105,7 @@
 					"authMechanism": "NONE",
 					"authSource": "admin"
 				},
-				"auth-model": "native",
+				"auth-model": "mongodb_default",
 				"bootstrap": {
 					"autocommit": true
 				}
