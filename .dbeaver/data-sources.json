@@ -1,0 +1,64 @@
+{
+	"folders": {},
+	"connections": {
+		"postgres-jdbc-189201143fb-1cb8aee3e98557f4": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "PostgreSQL@localhost",
+			"save-password": true,
+			"shared-credentials": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "5432",
+				"database": "postgres",
+				"url": "jdbc:postgresql://localhost:5432/postgres",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "true"
+				},
+				"auth-model": "native",
+				"handlers": {
+					"ssh_tunnel": {
+						"type": "TUNNEL",
+						"enabled": true,
+						"save-password": true,
+						"properties": {
+							"port": 22.0,
+							"host": "db1.dev.dbeaver.com",
+							"aliveInterval": "0",
+							"sshConnectTimeout": "10000",
+							"authType": "PUBLIC_KEY"
+						}
+					}
+				}
+			}
+		},
+		"sqlite_ee-18921aac65b-c93c854243a0066": {
+			"provider": "sqlite-ee",
+			"driver": "sqlite_ee",
+			"name": "SQLite@localhost",
+			"configuration": {
+				"host": "localhost",
+				"port": "1234",
+				"url": "jdbc:sqlite:{file}",
+				"configurationType": "MANUAL",
+				"type": "dev"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": false,
+			"auto-close-transactions": false,
+			"close-transactions-period": 1800
+		}
+	}
+}
