@@ -52,6 +52,7 @@
 			"name": "PostgreSQL_db1_shared_to_all copy",
 			"save-password": true,
 			"shared-credentials": true,
+			"folder": "folderWeb",
 			"configuration": {
 				"host": "localhost",
 				"port": "5432",
