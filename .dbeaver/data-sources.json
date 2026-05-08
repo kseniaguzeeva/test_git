@@ -45,6 +45,49 @@
 					"mcpEnabled": true
 				}
 			}
+		},
+		"postgres-jdbc-19e06dc6913-6fea161c36600f69": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "PostgreSQL_db1_shared_to_all copy",
+			"save-password": true,
+			"shared-credentials": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "5432",
+				"database": "postgres",
+				"url": "jdbc:postgresql://localhost:5432/postgres",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": false,
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "true"
+				},
+				"auth-model": "native",
+				"handlers": {
+					"ssh_tunnel": {
+						"type": "TUNNEL",
+						"enabled": true,
+						"save-password": true,
+						"properties": {
+							"host": "db1.dev.dbeaver.infra",
+							"port": 22.0,
+							"authType": "PUBLIC_KEY",
+							"aliveInterval": "0",
+							"sshConnectTimeout": "10000"
+						}
+					}
+				},
+				"bootstrap": {
+					"autocommit": true
+				}
+			},
+			"extensions": {
+				"ai.assistant": {
+					"confirmed": true,
+					"mcpEnabled": true
+				}
+			}
 		}
 	},
 	"connection-types": {
