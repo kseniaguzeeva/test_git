@@ -25,7 +25,7 @@
 						"enabled": true,
 						"save-password": true,
 						"properties": {
-							"host": "db1.dev.dbeaver.штак",
+							"host": "db1.dev.dbeaver.infra",
 							"port": 22.0,
 							"authType": "PUBLIC_KEY",
 							"aliveInterval": "0",
