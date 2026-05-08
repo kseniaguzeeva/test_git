@@ -5,7 +5,6 @@
 			"provider": "postgresql",
 			"driver": "postgres-jdbc",
 			"name": "PostgreSQL@localhost",
-			"save-password": true,
 			"shared-credentials": true,
 			"configuration": {
 				"host": "localhost",
@@ -25,13 +24,16 @@
 						"enabled": true,
 						"save-password": true,
 						"properties": {
+							"host": "db1.dev.dbeaver.штак",
 							"port": 22.0,
-							"host": "db1.dev.dbeaver.com",
+							"authType": "PUBLIC_KEY",
 							"aliveInterval": "0",
-							"sshConnectTimeout": "10000",
-							"authType": "PUBLIC_KEY"
+							"sshConnectTimeout": "10000"
 						}
 					}
+				},
+				"bootstrap": {
+					"autocommit": true
 				}
 			}
 		}
