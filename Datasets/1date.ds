@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><dataset draft="false"><queries><query id="a8e1a37d-4414-4812-94d9-c0059f070e95" data-source="postgres-jdbc-189201143fb-1cb8aee3e98557f4" catalog="postgres" schema="postgres"><text><![CDATA[select * from "1date" d]]></text></query></queries></dataset>
