@@ -88,6 +88,28 @@
 					"mcpEnabled": true
 				}
 			}
+		},
+		"cql-19e07267f5f-3df45c7ef6c97320": {
+			"provider": "mongodb",
+			"driver": "cql",
+			"name": "MongoDB@localhost",
+			"configuration": {
+				"host": "localhost",
+				"port": "27017",
+				"database": "local",
+				"url": "mongo://localhost:27017/local",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"authMechanism": "NONE",
+					"authSource": "admin"
+				},
+				"auth-model": "native",
+				"bootstrap": {
+					"autocommit": true
+				}
+			}
 		}
 	},
 	"connection-types": {
