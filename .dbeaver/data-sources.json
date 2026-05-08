@@ -49,9 +49,8 @@
 		"postgres-jdbc-19e06dc6913-6fea161c36600f69": {
 			"provider": "postgresql",
 			"driver": "postgres-jdbc",
-			"name": "PostgreSQL_db1_shared_to_all copy",
+			"name": "PostgreSQL_db1_saved_by_cbadmin_web",
 			"save-password": true,
-			"shared-credentials": true,
 			"folder": "folderWeb",
 			"configuration": {
 				"host": "localhost",
