@@ -43,12 +43,12 @@
 				}
 			],
 			"configuration": {
-				"maxJobCount": 1,
+				"maxJobCount": 1.0,
 				"showFinalMessage": true,
 				"DatabaseTransferProducer": {
 					"extractType": "SINGLE_QUERY",
-					"segmentSize": 100000,
-					"fetchSize": 10000,
+					"segmentSize": 100000.0,
+					"fetchSize": 10000.0,
 					"openNewConnections": false,
 					"queryRowCount": false,
 					"selectedColumnsOnly": false,
@@ -68,7 +68,7 @@
 					"useSingleFile": false,
 					"compressResults": false,
 					"splitOutFiles": false,
-					"maxOutFileSize": 10000000,
+					"maxOutFileSize": 1.0E7,
 					"valueFormat": "UI"
 				},
 				"producer": "database_producer",
@@ -91,5 +91,12 @@
 				}
 			}
 		}
+	},
+	"d71569f5-ae60-40bd-9653-750cd14458b7": {
+		"task": "dataExport",
+		"label": "testGitProjectTask",
+		"description": "",
+		"createTime": "202605081231",
+		"updateTime": "202605081231"
 	}
 }
