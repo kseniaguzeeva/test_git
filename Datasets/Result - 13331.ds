@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><dataset draft="false"><queries><query id="009c4886-b433-48ad-b570-56b382fd2ab5" data-source="postgres-jdbc-189201143fb-1cb8aee3e98557f4" queryText="select * from dasha.&quot;booleanJSONblobGEOM&quot; bjg" catalog="postgres" schema="postgres"/></queries></dataset>

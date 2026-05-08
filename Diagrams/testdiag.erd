@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagram version="1" name="testdiag">
+	<entities>
+		<data-source id="postgres-jdbc-189201143fb-1cb8aee3e98557f4">
+			<entity id="1" name="orderstest" fq-name="dasha.orderstest">
+				<path name="dasha"/>
+				<path name="postgres"/>
+			</entity>
+		</data-source>
+	</entities>
+	<relations/>
+</diagram>
