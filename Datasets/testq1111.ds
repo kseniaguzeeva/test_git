@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><dataset description="" draft="false"><queries><query id="9ac12062-78de-4035-acfa-e563195b3667" data-source="postgres-jdbc-189201143fb-1cb8aee3e98557f4" queryText="select * from dasha.customers" catalog="postgres" schema="postgres"/></queries></dataset>
