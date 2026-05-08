@@ -1,25 +1,4 @@
 {
-	"c72b3225-6ee3-4707-b4e2-6933c4d199c9": {
-		"task": "scriptExecute",
-		"label": "test",
-		"description": "",
-		"createTime": "202307251355",
-		"updateTime": "202307251355",
-		"state": {
-			"scriptFiles": [
-				"/GitDontTouch_1/.remote/Scripts/app9.sql"
-			],
-			"dataSources": [
-				{
-					"project": "GitDontTouch_1",
-					"dataSource": "postgres-jdbc-189201143fb-1cb8aee3e98557f4"
-				}
-			],
-			"ignoreErrors": true,
-			"dumpQueryResultsToLog": false,
-			"autoCommit": false
-		}
-	},
 	"d71569f5-ae60-40bd-9653-750cd14458b7": {
 		"task": "dataExport",
 		"label": "testGitProjectTask",
