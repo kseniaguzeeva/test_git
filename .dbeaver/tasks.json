@@ -115,12 +115,12 @@
 				}
 			],
 			"configuration": {
-				"maxJobCount": 1.0,
+				"maxJobCount": 1,
 				"showFinalMessage": true,
 				"DatabaseTransferProducer": {
 					"extractType": "SINGLE_QUERY",
-					"segmentSize": 100000.0,
-					"fetchSize": 10000.0,
+					"segmentSize": 100000,
+					"fetchSize": 10000,
 					"openNewConnections": false,
 					"queryRowCount": false,
 					"fetchedRowsOnly": false,
@@ -131,9 +131,9 @@
 					"entityId": "postgres-jdbc-189201143fb-1cb8aee3e98557f4/postgres/postgres",
 					"openNewConnections": true,
 					"useTransactions": true,
-					"commitAfterRows": 10000.0,
+					"commitAfterRows": 10000,
 					"useMultiRowInsert": false,
-					"multiRowInsertBatch": 500.0,
+					"multiRowInsertBatch": 500,
 					"skipBindValues": false,
 					"disableUsingBatches": false,
 					"ignoreDuplicateRows": false,
@@ -146,35 +146,49 @@
 					"mappings": {
 						"postgres-jdbc-189201143fb-1cb8aee3e98557f4/postgres/postgres/1date": {
 							"targetName": "1dateTestGitProjectTask",
-							"mappingType": "create",
+							"mappingType": "existing",
 							"attributes": {
 								"id": {
 									"targetName": "id",
-									"mappingType": "create"
+									"targetType": "",
+									"targetTypeWithModifiers": "",
+									"mappingType": "existing"
 								},
 								"cdate": {
 									"targetName": "cdate",
-									"mappingType": "create"
+									"targetType": "",
+									"targetTypeWithModifiers": "",
+									"mappingType": "existing"
 								},
 								"boolean_test": {
 									"targetName": "boolean_test",
-									"mappingType": "create"
+									"targetType": "",
+									"targetTypeWithModifiers": "",
+									"mappingType": "existing"
 								},
 								"int_test": {
 									"targetName": "int_test",
-									"mappingType": "create"
+									"targetType": "",
+									"targetTypeWithModifiers": "",
+									"mappingType": "existing"
 								},
 								"boolean_not_null": {
 									"targetName": "boolean_not_null",
-									"mappingType": "create"
+									"targetType": "",
+									"targetTypeWithModifiers": "",
+									"mappingType": "existing"
 								},
 								"boolean_test_description": {
 									"targetName": "boolean_test_description",
-									"mappingType": "create"
+									"targetType": "",
+									"targetTypeWithModifiers": "",
+									"mappingType": "existing"
 								},
 								"text": {
 									"targetName": "text",
-									"mappingType": "create"
+									"targetType": "",
+									"targetTypeWithModifiers": "",
+									"mappingType": "existing"
 								}
 							}
 						}
