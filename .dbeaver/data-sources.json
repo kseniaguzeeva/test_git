@@ -114,7 +114,7 @@
 		"mysql8-19e8ddfe1ab-51f95da69fb31707": {
 			"provider": "mysql-ee",
 			"driver": "mysql8",
-			"name": "localhost",
+			"name": "regression_2610savedbyguzeeva",
 			"save-password": true,
 			"configuration": {
 				"host": "localhost",
