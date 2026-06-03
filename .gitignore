@@ -1,11 +1,3 @@
 .dbeaver/task-stats
-*.ds
-*.bm
-.dbeaver/data-sources*
-.dbeaver/project-settings.json
-.dbeaver/project-metadata.json
-.dbeaver/credentials-config*
-*.erd
-*.sql
 .dbeaver/.configuration
 *.bak
