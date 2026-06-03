@@ -99,6 +99,7 @@
 		"task": "dataExport",
 		"label": "testGitProjectTask2610regression",
 		"description": "",
+		"taskFolder": "2610regression",
 		"createTime": "202606031718",
 		"updateTime": "202606031718",
 		"state": {
