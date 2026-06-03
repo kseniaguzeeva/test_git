@@ -110,6 +110,64 @@
 					"autocommit": true
 				}
 			}
+		},
+		"mysql8-19e8ddfe1ab-51f95da69fb31707": {
+			"provider": "mysql-ee",
+			"driver": "mysql8",
+			"name": "localhost",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"url": "jdbc:mysql://localhost:3306/",
+				"configurationType": "MANUAL",
+				"home": "MySQL Server 8.0",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"@dbeaver-show-all-dbs@": "true"
+				},
+				"auth-model": "native",
+				"handlers": {
+					"ssh_tunnel": {
+						"type": "TUNNEL",
+						"enabled": true,
+						"save-password": true,
+						"properties": {
+							"jumpServer.count": 0.0,
+							"host": "db1.dev.dbeaver.infra",
+							"port": 22.0,
+							"authType": "PUBLIC_KEY",
+							"implementation": "sshj",
+							"shareTunnels": true,
+							"localHost": "",
+							"remoteHost": ""
+						}
+					}
+				}
+			}
+		}
+	},
+	"network-profiles": {
+		"db1": {
+			"name": "db1",
+			"handlers": {
+				"ssh_tunnel": {
+					"type": "TUNNEL",
+					"enabled": true,
+					"save-password": true,
+					"properties": {
+						"jumpServer.count": 0.0,
+						"host": "db1.dev.dbeaver.infra",
+						"port": 22.0,
+						"authType": "PUBLIC_KEY",
+						"implementation": "sshj",
+						"shareTunnels": true,
+						"localHost": "",
+						"remoteHost": ""
+					}
+				}
+			}
 		}
 	},
 	"connection-types": {
