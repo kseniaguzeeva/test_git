@@ -1,1 +1,1 @@
-kkk
+select * from postgres."1date" as d 
