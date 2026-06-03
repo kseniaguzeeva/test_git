@@ -1,4 +1,7 @@
 {
+	"##tasksFolders": {
+		"2610regression": {}
+	},
 	"d71569f5-ae60-40bd-9653-750cd14458b7": {
 		"task": "dataExport",
 		"label": "testGitProjectTask",
