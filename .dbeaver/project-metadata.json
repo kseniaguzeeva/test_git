@@ -1,1 +1,1 @@
-{"resources":{"Scripts/saveRegression2610.sql":{"default-datasource":"postgres-jdbc-189201143fb-1cb8aee3e98557f4","default-catalog":"postgres","default-schema":"postgres"}}}
+{"resources":{"Scripts/saveRegression2610.sql":{"default-schema":"postgres","default-datasource":"postgres-jdbc-189201143fb-1cb8aee3e98557f4","default-catalog":"postgres"}}}
