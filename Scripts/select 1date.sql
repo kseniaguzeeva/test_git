@@ -1,1 +1,1 @@
-select * from "1date" d
+select * from "1date"
