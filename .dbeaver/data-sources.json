@@ -152,6 +152,7 @@
 			"driver": "cql",
 			"name": "MongoDBSSLprojectprofilesshpasswordSaved",
 			"description": "regression2613",
+			"save-password": true,
 			"configuration": {
 				"host": "localhost",
 				"port": "27017",
@@ -160,6 +161,7 @@
 				"configurationType": "MANUAL",
 				"type": "dev",
 				"closeIdleConnection": true,
+				"config-profile": "db2passwordFromWeb",
 				"provider-properties": {
 					"authMechanism": "SCRAM-SHA-1",
 					"authSource": "admin"
@@ -173,6 +175,18 @@
 						"properties": {
 							"sslInvalidHostNameAllowed": true,
 							"ssl.forceTls12": true
+						}
+					},
+					"ssh_tunnel": {
+						"type": "TUNNEL",
+						"enabled": true,
+						"save-password": true,
+						"properties": {
+							"host": "db2.dev.dbeaver.infra",
+							"port": 22.0,
+							"authType": "PASSWORD",
+							"aliveInterval": "0",
+							"sshConnectTimeout": "10000"
 						}
 					}
 				},
