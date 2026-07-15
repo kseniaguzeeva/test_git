@@ -571,5 +571,26 @@
 			"ignoreErrors": true,
 			"allNotifications": true
 		}
+	},
+	"5d667d9c-5762-48e8-9793-6c497bd24820": {
+		"task": "scriptExecute",
+		"label": "2614mongoScriptSelectWithParameter",
+		"description": "",
+		"createTime": "202607151748",
+		"updateTime": "202607151748",
+		"state": {
+			"scriptFiles": [
+				"Scripts/2613mongoScriptSelectWithParameter.sql"
+			],
+			"dataSources": [
+				{
+					"project": "Git_Project",
+					"dataSource": "cql-19f65eb5028-9ee29a22245415"
+				}
+			],
+			"ignoreErrors": false,
+			"dumpQueryResultsToLog": false,
+			"autoCommit": false
+		}
 	}
 }
