@@ -146,6 +146,40 @@
 					}
 				}
 			}
+		},
+		"cql-19f64ee1e25-2259cb83f9e499ab": {
+			"provider": "mongodb",
+			"driver": "cql",
+			"name": "MongoDBSSLprojectprofilesshpasswordSaved",
+			"description": "regression2613",
+			"configuration": {
+				"host": "localhost",
+				"port": "27017",
+				"database": "sampledata",
+				"url": "mongo://localhost:27017/sampledata",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"authMechanism": "SCRAM-SHA-1",
+					"authSource": "admin"
+				},
+				"auth-model": "mongodb_default",
+				"handlers": {
+					"mongo_ssl": {
+						"type": "CONFIG",
+						"enabled": true,
+						"save-password": true,
+						"properties": {
+							"sslInvalidHostNameAllowed": true,
+							"ssl.forceTls12": true
+						}
+					}
+				},
+				"bootstrap": {
+					"autocommit": true
+				}
+			}
 		}
 	},
 	"network-profiles": {
@@ -174,6 +208,7 @@
 		"dev": {
 			"name": "Development",
 			"color": "255,255,255",
+			"colorDark": "255,255,255",
 			"description": "Regular development database",
 			"auto-commit": true,
 			"confirm-execute": false,
