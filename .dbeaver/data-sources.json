@@ -153,6 +153,7 @@
 			"name": "MongoDBSSLprojectprofilesshpasswordSavedGuzeeva",
 			"description": "regression2613",
 			"save-password": true,
+			"read-only": true,
 			"configuration": {
 				"host": "localhost",
 				"port": "27017",
