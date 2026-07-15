@@ -593,7 +593,8 @@
 			"autoCommit": false,
 			"taskVariables": {
 				"test": "\u002728\u0027"
-			}
+			},
+			"promptTaskVariables": true
 		}
 	}
 }
