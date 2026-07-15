@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><dataset draft="false"><queries><query id="0a8f1adc-75b9-4c5c-a96a-458aaa1187e8" data-source="cql-19f64ee1e25-2259cb83f9e499ab" catalog="cityData"><text><![CDATA[SELECT * FROM cityData.cities]]></text></query></queries></dataset>
