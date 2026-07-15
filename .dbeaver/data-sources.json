@@ -305,6 +305,9 @@
 					}
 				}
 			},
+			"custom-properties": {
+				"resultset.transform.complex.type": "false"
+			},
 			"extensions": {
 				"ai.assistant": {
 					"confirmed": false,
