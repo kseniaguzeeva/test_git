@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagram version="1" name="2613">
+	<entities>
+		<data-source id="cql-19f65eb5028-9ee29a22245415">
+			<entity id="1" name="books" fq-name="test.books">
+				<path name="test"/>
+			</entity>
+			<entity id="2" name="books2" fq-name="test.books2">
+				<path name="test"/>
+			</entity>
+			<entity id="3" name="patients" fq-name="test.patients">
+				<path name="test"/>
+			</entity>
+			<entity id="4" name="test" fq-name="test.test">
+				<path name="test"/>
+			</entity>
+		</data-source>
+	</entities>
+	<relations/>
+</diagram>
