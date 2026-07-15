@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><dataset draft="false"><queries><query id="ca3c30c5-f274-4cbc-aa8b-4a3a28d13249" data-source="cql-19f64f017bb-63c8c1a7ed89aad5" catalog="cityData"><text><![CDATA[SELECT * FROM cityData.citizens WHERE name = :MaxSmith]]></text></query></queries></dataset>
