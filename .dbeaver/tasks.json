@@ -119,12 +119,12 @@
 				}
 			],
 			"configuration": {
-				"maxJobCount": 1,
+				"maxJobCount": 1.0,
 				"showFinalMessage": true,
 				"DatabaseTransferProducer": {
 					"extractType": "SINGLE_QUERY",
-					"segmentSize": 100000,
-					"fetchSize": 10000,
+					"segmentSize": 100000.0,
+					"fetchSize": 10000.0,
 					"openNewConnections": false,
 					"queryRowCount": false,
 					"fetchedRowsOnly": false,
@@ -135,9 +135,9 @@
 					"entityId": "postgres-jdbc-189201143fb-1cb8aee3e98557f4/postgres/postgres",
 					"openNewConnections": true,
 					"useTransactions": true,
-					"commitAfterRows": 10000,
+					"commitAfterRows": 10000.0,
 					"useMultiRowInsert": false,
-					"multiRowInsertBatch": 500,
+					"multiRowInsertBatch": 500.0,
 					"skipBindValues": false,
 					"disableUsingBatches": false,
 					"ignoreDuplicateRows": false,
@@ -202,5 +202,12 @@
 				"consumer": "database_consumer"
 			}
 		}
+	},
+	"58255a58-cd8a-46d2-a716-5ea7b2efcc19": {
+		"task": "dataExport",
+		"label": "2613mongoDbDbExisting",
+		"description": "",
+		"createTime": "202607151736",
+		"updateTime": "202607151736"
 	}
 }
