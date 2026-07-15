@@ -255,7 +255,7 @@
 		"cql-19f65eb5028-9ee29a22245415": {
 			"provider": "mongodb",
 			"driver": "cql",
-			"name": "test",
+			"name": "MongoDBSSLprojectprofilesshpasswordSavedGuzeevaDesktop",
 			"save-password": true,
 			"configuration": {
 				"host": "localhost",
