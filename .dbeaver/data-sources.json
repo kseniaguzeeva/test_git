@@ -243,6 +243,12 @@
 				"bootstrap": {
 					"autocommit": true
 				}
+			},
+			"extensions": {
+				"ai.assistant": {
+					"confirmed": true,
+					"mcpEnabled": false
+				}
 			}
 		}
 	},
