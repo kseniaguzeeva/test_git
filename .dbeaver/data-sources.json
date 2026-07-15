@@ -256,15 +256,11 @@
 				"configurationType": "MANUAL",
 				"type": "dev",
 				"closeIdleConnection": true,
-				"properties": {
-					"daf": "ergrdf",
-					"showAllDatabases": "false"
-				},
 				"provider-properties": {
 					"authMechanism": "NONE",
 					"authSource": "admin"
 				},
-				"auth-model": "native",
+				"auth-model": "mongodb_default",
 				"bootstrap": {
 					"autocommit": true
 				}
