@@ -303,6 +303,13 @@
 						}
 					}
 				}
+			},
+			"extensions": {
+				"ai.assistant": {
+					"confirmed": false,
+					"mcpEnabled": false,
+					"scope": "CURRENT_DATABASE"
+				}
 			}
 		}
 	},
