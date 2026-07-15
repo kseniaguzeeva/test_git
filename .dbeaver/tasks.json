@@ -295,6 +295,75 @@
 		"label": "2613mongoCsvExp",
 		"description": "",
 		"createTime": "202607151737",
-		"updateTime": "202607151737"
+		"updateTime": "202607151737",
+		"state": {
+			"producers": [
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "Git_Project",
+						"entityId": "cql-19f65eb5028-9ee29a22245415/test/passengersto"
+					}
+				}
+			],
+			"consumers": [
+				{
+					"type": "streamTransferConsumer"
+				}
+			],
+			"configuration": {
+				"maxJobCount": 1,
+				"showFinalMessage": true,
+				"DatabaseTransferProducer": {
+					"extractType": "SINGLE_QUERY",
+					"segmentSize": 100000,
+					"fetchSize": 10000,
+					"openNewConnections": true,
+					"queryRowCount": true,
+					"fetchedRowsOnly": false,
+					"selectedColumnsOnly": false,
+					"selectedRowsOnly": false
+				},
+				"StreamTransferConsumer": {
+					"lobExtractType": "INLINE",
+					"lobEncoding": "BINARY",
+					"dataFileConflictBehavior": "ASK",
+					"blobFileConflictBehavior": "ASK",
+					"outputFolder": "C:\\Users\\KSU\\Desktop\\Export\\mongoDb",
+					"outputFilePattern": "${table}_${timestamp}",
+					"outputEncoding": "UTF-8",
+					"outputTimestampPattern": "yyyyMMddHHmm",
+					"outputEncodingBOM": false,
+					"outputClipboard": false,
+					"useSingleFile": false,
+					"compressResults": false,
+					"splitOutFiles": false,
+					"maxOutFileSize": 10000000,
+					"formatterProfile": "",
+					"valueFormat": "UI"
+				},
+				"producer": "database_producer",
+				"consumer": "stream_consumer",
+				"processor": "stream.csv",
+				"processors": {
+					"stream_consumer:stream.csv": {
+						"@propNames": "quoteChar,rowDelimiter,extension,headerFormat,delimiter,header,formatArray,formatNumbers,quoteAlways,headerCase,quoteNever,escape,",
+						"quoteChar": "\"",
+						"rowDelimiter": "default",
+						"extension": "csv",
+						"headerFormat": "label",
+						"delimiter": ",",
+						"header": "top",
+						"formatArray": "{ }",
+						"formatNumbers": "false",
+						"quoteAlways": "disabled",
+						"headerCase": "as is",
+						"quoteNever": "false",
+						"escape": "quotes"
+					}
+				}
+			}
+		}
 	}
 }
