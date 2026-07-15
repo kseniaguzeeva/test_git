@@ -590,7 +590,10 @@
 			],
 			"ignoreErrors": false,
 			"dumpQueryResultsToLog": false,
-			"autoCommit": false
+			"autoCommit": false,
+			"taskVariables": {
+				"test": "\u002728\u0027"
+			}
 		}
 	}
 }
