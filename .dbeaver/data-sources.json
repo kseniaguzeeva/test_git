@@ -245,6 +245,14 @@
 					"autocommit": true
 				}
 			},
+			"filters": [
+				{
+					"id": "cityData",
+					"type": "com.dbeaver.db.mongodb.model.MGCollection",
+					"enabled": true,
+					"exclude": ["*ns"]
+				}
+			],
 			"extensions": {
 				"ai.assistant": {
 					"confirmed": true,
