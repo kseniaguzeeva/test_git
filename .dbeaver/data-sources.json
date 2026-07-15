@@ -251,6 +251,59 @@
 					"mcpEnabled": false
 				}
 			}
+		},
+		"cql-19f65eb5028-9ee29a22245415": {
+			"provider": "mongodb",
+			"driver": "cql",
+			"name": "test",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "27017",
+				"database": "test",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"properties": {
+					"showAllDatabases": "false"
+				},
+				"provider-properties": {
+					"replicaSet": "",
+					"casualConsistency": "false",
+					"authMechanism": "SCRAM-SHA-1",
+					"authSource": "admin"
+				},
+				"auth-model": "mongodb_default",
+				"handlers": {
+					"ssh_tunnel": {
+						"type": "TUNNEL",
+						"enabled": true,
+						"save-password": true,
+						"properties": {
+							"host": "db2.dev.dbeaver.infra",
+							"port": 22.0,
+							"authType": "PASSWORD",
+							"sshConnectTimeout": "10000",
+							"jumpServer.count": 0.0,
+							"implementation": "sshj",
+							"shareTunnels": true,
+							"localHost": "",
+							"remoteHost": ""
+						}
+					},
+					"mongo_ssl": {
+						"type": "CONFIG",
+						"enabled": true,
+						"save-password": true,
+						"properties": {
+							"ssl.method": "CERTIFICATES",
+							"sslInvalidHostNameAllowed": true,
+							"ssl.self-signed-cert": false,
+							"ssl.forceTls12": true
+						}
+					}
+				}
+			}
 		}
 	},
 	"network-profiles": {
