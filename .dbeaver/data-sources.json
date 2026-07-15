@@ -243,6 +243,32 @@
 					"autocommit": true
 				}
 			}
+		},
+		"cql-19f64f2c90d-28453131f3eec98a": {
+			"provider": "mongodb",
+			"driver": "cql",
+			"name": "MongoDB@localhost",
+			"configuration": {
+				"host": "localhost",
+				"port": "27017",
+				"database": "local",
+				"url": "mongo://localhost:27017/local",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"properties": {
+					"daf": "ergrdf",
+					"showAllDatabases": "false"
+				},
+				"provider-properties": {
+					"authMechanism": "NONE",
+					"authSource": "admin"
+				},
+				"auth-model": "native",
+				"bootstrap": {
+					"autocommit": true
+				}
+			}
 		}
 	},
 	"network-profiles": {
