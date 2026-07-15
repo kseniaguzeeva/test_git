@@ -198,7 +198,7 @@
 		"cql-19f64f017bb-63c8c1a7ed89aad5": {
 			"provider": "mongodb",
 			"driver": "cql",
-			"name": "MongoDBSSLprojectprofilesshpasswordSavedGuzeeva copy",
+			"name": "MongoDBSSLprojectprofilesshpasswordSharedTwoTeams",
 			"description": "regression2613",
 			"save-password": true,
 			"configuration": {
