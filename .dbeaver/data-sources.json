@@ -257,15 +257,16 @@
 			"driver": "cql",
 			"name": "MongoDBSSLprojectprofilesshpasswordSavedGuzeevaDesktop",
 			"save-password": true,
+			"shared-credentials": true,
 			"configuration": {
 				"host": "localhost",
 				"port": "27017",
 				"database": "test",
 				"configurationType": "MANUAL",
-				"type": "dev",
+				"type": "prod",
 				"closeIdleConnection": true,
 				"properties": {
-					"showAllDatabases": "false"
+					"showAllDatabases": "true"
 				},
 				"provider-properties": {
 					"replicaSet": "",
@@ -367,6 +368,21 @@
 			"close-transactions-period": 1800,
 			"auto-close-connections": true,
 			"close-connections-period": 14400
+		},
+		"prod": {
+			"name": "Production",
+			"color": "250,207,207",
+			"colorDark": "97,61,63",
+			"description": "Production database",
+			"auto-commit": false,
+			"confirm-execute": true,
+			"confirm-data-change": true,
+			"smart-commit": false,
+			"smart-commit-recover": false,
+			"auto-close-transactions": true,
+			"close-transactions-period": 600,
+			"auto-close-connections": true,
+			"close-connections-period": 3600
 		}
 	}
 }
