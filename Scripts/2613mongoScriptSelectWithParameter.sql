@@ -1,1 +1,1 @@
-SELECT * FROM test.passengerstoto WHERE age = '29'
+SELECT * FROM test.passengerstoto WHERE age = :test
