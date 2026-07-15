@@ -312,26 +312,6 @@
 					"scope": "CURRENT_DATABASE"
 				}
 			}
-		},
-		"postgres-jdbc-19f65f120a8-362c532960843db": {
-			"provider": "postgresql",
-			"driver": "postgres-jdbc",
-			"name": "postgres",
-			"save-password": true,
-			"configuration": {
-				"host": "localhost",
-				"port": "5432",
-				"database": "postgres",
-				"url": "jdbc:postgresql://localhost:5432/postgres",
-				"configurationType": "MANUAL",
-				"home": "postgresql-x64-14",
-				"type": "prod",
-				"closeIdleConnection": true,
-				"provider-properties": {
-					"@dbeaver-show-non-default-db@": "false"
-				},
-				"auth-model": "native"
-			}
 		}
 	},
 	"network-profiles": {
