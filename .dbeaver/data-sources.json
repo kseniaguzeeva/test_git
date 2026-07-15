@@ -162,9 +162,6 @@
 				"type": "dev",
 				"closeIdleConnection": true,
 				"config-profile": "db2passwordFromWeb",
-				"properties": {
-					"showAllDatabases": "false"
-				},
 				"provider-properties": {
 					"authMechanism": "SCRAM-SHA-1",
 					"authSource": "admin"
