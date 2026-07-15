@@ -203,6 +203,10 @@
 			"description": "regression2613",
 			"save-password": true,
 			"shared-credentials": true,
+			"show-system-objects": true,
+			"navigator-show-only-entities": true,
+			"navigator-hide-folders": true,
+			"navigator-hide-virtual": true,
 			"configuration": {
 				"host": "localhost",
 				"port": "27017",
