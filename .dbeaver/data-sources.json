@@ -325,7 +325,7 @@
 				"url": "jdbc:postgresql://localhost:5432/postgres",
 				"configurationType": "MANUAL",
 				"home": "postgresql-x64-14",
-				"type": "dev",
+				"type": "prod",
 				"closeIdleConnection": true,
 				"provider-properties": {
 					"@dbeaver-show-non-default-db@": "false"
