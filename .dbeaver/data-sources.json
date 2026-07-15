@@ -194,7 +194,15 @@
 				"bootstrap": {
 					"autocommit": true
 				}
-			}
+			},
+			"filters": [
+				{
+					"id": "cityData",
+					"type": "com.dbeaver.db.mongodb.model.MGCollection",
+					"enabled": true,
+					"exclude": ["*ns"]
+				}
+			]
 		},
 		"cql-19f64f017bb-63c8c1a7ed89aad5": {
 			"provider": "mongodb",
