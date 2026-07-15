@@ -201,6 +201,7 @@
 			"name": "MongoDBSSLprojectprofilesshpasswordSharedTwoTeams",
 			"description": "regression2613",
 			"save-password": true,
+			"shared-credentials": true,
 			"configuration": {
 				"host": "localhost",
 				"port": "27017",
