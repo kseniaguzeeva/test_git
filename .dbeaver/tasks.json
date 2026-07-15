@@ -550,5 +550,26 @@
 				"consumer": "database_consumer"
 			}
 		}
+	},
+	"7fd498db-cebc-4eb4-9f97-d465ddbce1e4": {
+		"task": "composite",
+		"label": "2613mongoCompExpDbCsv",
+		"description": "",
+		"createTime": "202607151744",
+		"updateTime": "202607151744",
+		"state": {
+			"tasks": [
+				{
+					"id": "a0355d6e-caa2-4e09-99a9-734243f1f1e1",
+					"project": "Git_Project"
+				},
+				{
+					"id": "58255a58-cd8a-46d2-a716-5ea7b2efcc19",
+					"project": "Git_Project"
+				}
+			],
+			"ignoreErrors": true,
+			"allNotifications": true
+		}
 	}
 }
