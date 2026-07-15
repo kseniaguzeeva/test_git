@@ -150,7 +150,7 @@
 		"cql-19f64ee1e25-2259cb83f9e499ab": {
 			"provider": "mongodb",
 			"driver": "cql",
-			"name": "MongoDBSSLprojectprofilesshpasswordSavedGuzeevaReadOnly",
+			"name": "MongoDBSSLprojectprofilesshpasswordSavedGuzeevaWebReadOnly",
 			"description": "regression2613",
 			"save-password": true,
 			"read-only": true,
