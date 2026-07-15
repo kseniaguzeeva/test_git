@@ -203,22 +203,19 @@
 			"description": "regression2613",
 			"save-password": true,
 			"shared-credentials": true,
-			"show-system-objects": true,
-			"navigator-show-only-entities": true,
-			"navigator-hide-folders": true,
-			"navigator-hide-virtual": true,
 			"configuration": {
 				"host": "localhost",
 				"port": "27017",
 				"database": "sampledata",
-				"url": "mongo://localhost:27017/sampledata",
 				"configurationType": "MANUAL",
 				"type": "dev",
 				"closeIdleConnection": true,
 				"config-profile": "db2passwordFromWeb",
 				"provider-properties": {
 					"authMechanism": "SCRAM-SHA-1",
-					"authSource": "admin"
+					"authSource": "admin",
+					"replicaSet": "",
+					"casualConsistency": "false"
 				},
 				"auth-model": "mongodb_default",
 				"handlers": {
