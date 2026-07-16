@@ -317,7 +317,6 @@
 			"provider": "postgresql",
 			"driver": "postgres-jdbc",
 			"name": "postgres",
-			"save-password": true,
 			"configuration": {
 				"host": "localhost",
 				"port": "5432",
@@ -337,16 +336,19 @@
 						"enabled": true,
 						"save-password": true,
 						"properties": {
-							"jumpServer.count": 0.0,
 							"host": "db2.dev.dbeaver.infra",
 							"port": 22.0,
-							"authType": "PUBLIC_KEY",
+							"authType": "PASSWORD",
+							"jumpServer.count": 0.0,
 							"implementation": "sshj",
 							"shareTunnels": true,
 							"localHost": "",
 							"remoteHost": ""
 						}
 					}
+				},
+				"bootstrap": {
+					"autocommit": true
 				}
 			}
 		}
@@ -401,8 +403,8 @@
 			"confirm-execute": false,
 			"confirm-data-change": false,
 			"smart-commit": false,
-			"smart-commit-recover": true,
-			"auto-close-transactions": true,
+			"smart-commit-recover": false,
+			"auto-close-transactions": false,
 			"close-transactions-period": 1800,
 			"auto-close-connections": true,
 			"close-connections-period": 14400
