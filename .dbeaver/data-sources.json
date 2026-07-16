@@ -338,7 +338,7 @@
 						"save-password": true,
 						"properties": {
 							"jumpServer.count": 0.0,
-							"host": "db1.dev.dbeaver.infra",
+							"host": "db2.dev.dbeaver.infra",
 							"port": 22.0,
 							"authType": "PUBLIC_KEY",
 							"implementation": "sshj",
