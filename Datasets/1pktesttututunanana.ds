@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><dataset draft="false"><queries><query id="ced68b1b-79bc-4ef2-ac9a-1a9e47190474" data-source="postgres-jdbc-189201143fb-1cb8aee3e98557f4" catalog="postgres" schema="guzeeva"><text><![CDATA[SELECT p.* FROM guzeeva."1pk" AS p]]></text></query></queries></dataset>
