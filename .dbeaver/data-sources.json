@@ -327,7 +327,6 @@
 				"home": "postgresql-x64-14",
 				"type": "dev",
 				"closeIdleConnection": true,
-				"config-profile": "db1",
 				"provider-properties": {
 					"@dbeaver-show-non-default-db@": "false"
 				},
