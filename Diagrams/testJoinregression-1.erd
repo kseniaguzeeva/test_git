@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagram version="1" name="testJoin">
+	<entities>
+		<data-source id="postgres-jdbc-189201143fb-1cb8aee3e98557f4">
+			<entity id="1" name="customers" fq-name="test_join.customers">
+				<path name="test_join"/>
+				<path name="postgres"/>
+			</entity>
+			<entity id="2" name="orders" fq-name="test_join.orders">
+				<path name="test_join"/>
+				<path name="postgres"/>
+			</entity>
+			<entity id="3" name="products" fq-name="test_join.products">
+				<path name="test_join"/>
+				<path name="postgres"/>
+			</entity>
+		</data-source>
+	</entities>
+	<relations>
+		<relation name="orders_customerid_fkey" fq-name="test_join.orders.orders_customerid_fkey" type="fk" pk-ref="1" fk-ref="2"/>
+		<relation name="orders_productid_fkey" fq-name="test_join.orders.orders_productid_fkey" type="fk" pk-ref="3" fk-ref="2"/>
+	</relations>
+</diagram>
