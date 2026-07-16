@@ -317,6 +317,7 @@
 			"provider": "postgresql",
 			"driver": "postgres-jdbc",
 			"name": "postgres",
+			"save-password": true,
 			"configuration": {
 				"host": "localhost",
 				"port": "5432",
