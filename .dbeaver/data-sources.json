@@ -327,10 +327,28 @@
 				"home": "postgresql-x64-14",
 				"type": "dev",
 				"closeIdleConnection": true,
+				"config-profile": "db1",
 				"provider-properties": {
 					"@dbeaver-show-non-default-db@": "false"
 				},
-				"auth-model": "native"
+				"auth-model": "native",
+				"handlers": {
+					"ssh_tunnel": {
+						"type": "TUNNEL",
+						"enabled": true,
+						"save-password": true,
+						"properties": {
+							"jumpServer.count": 0.0,
+							"host": "db1.dev.dbeaver.infra",
+							"port": 22.0,
+							"authType": "PUBLIC_KEY",
+							"implementation": "sshj",
+							"shareTunnels": true,
+							"localHost": "",
+							"remoteHost": ""
+						}
+					}
+				}
 			}
 		}
 	},
