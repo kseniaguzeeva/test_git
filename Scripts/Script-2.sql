@@ -1,1 +1,0 @@
-db.books3.deleteMany({});
