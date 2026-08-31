@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><dataset draft="false"><queries><query id="9ac29258-e4bb-4083-98f5-fe6f1fa26ae8" data-source="postgres-jdbc-189201143fb-1cb8aee3e98557f4" catalog="postgres" schema="postgres"><text><![CDATA[select 2620  --PostgreSQL_db1_shared_to_all]]></text></query></queries></dataset>
