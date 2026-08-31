@@ -1,5 +1,6 @@
 .dbeaver/task-stats
 *.erd
 *.bm
+.dbeaver/data-sources*
 .dbeaver/.configuration
 *.bak
