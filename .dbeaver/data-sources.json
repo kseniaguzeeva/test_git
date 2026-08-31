@@ -100,7 +100,6 @@
 				"url": "mongo://localhost:27017/local",
 				"configurationType": "MANUAL",
 				"type": "dev",
-				"closeIdleConnection": true,
 				"provider-properties": {
 					"authMechanism": "NONE",
 					"authSource": "admin"
@@ -123,7 +122,6 @@
 				"configurationType": "MANUAL",
 				"home": "MySQL Server 8.0",
 				"type": "dev",
-				"closeIdleConnection": true,
 				"provider-properties": {
 					"@dbeaver-show-all-dbs@": "true"
 				},
@@ -161,7 +159,6 @@
 				"url": "mongo://localhost:27017/sampledata",
 				"configurationType": "MANUAL",
 				"type": "dev",
-				"closeIdleConnection": true,
 				"config-profile": "db2passwordFromWeb",
 				"provider-properties": {
 					"authMechanism": "SCRAM-SHA-1",
@@ -209,7 +206,6 @@
 				"database": "sampledata",
 				"configurationType": "MANUAL",
 				"type": "dev",
-				"closeIdleConnection": true,
 				"config-profile": "db2passwordFromWeb",
 				"provider-properties": {
 					"authMechanism": "SCRAM-SHA-1",
@@ -264,7 +260,6 @@
 				"database": "test",
 				"configurationType": "MANUAL",
 				"type": "prod",
-				"closeIdleConnection": true,
 				"properties": {
 					"showAllDatabases": "true"
 				},
@@ -326,7 +321,6 @@
 				"configurationType": "MANUAL",
 				"home": "postgresql-x64-14",
 				"type": "dev",
-				"closeIdleConnection": true,
 				"provider-properties": {
 					"@dbeaver-show-non-default-db@": "false"
 				},
