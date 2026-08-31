@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagram version="1" name="test2620">
+	<entities>
+		<data-source id="mysql8-1a0582c16da-2155b2b4eb54646">
+			<entity id="1" name="faculty" fq-name="test_review.faculty">
+				<path name="test_review"/>
+			</entity>
+			<entity id="2" name="faculty_to" fq-name="test_review.faculty_to">
+				<path name="test_review"/>
+			</entity>
+		</data-source>
+	</entities>
+	<relations/>
+</diagram>
