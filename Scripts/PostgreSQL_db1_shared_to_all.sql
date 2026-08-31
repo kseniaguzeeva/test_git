@@ -1,1 +1,1 @@
-select 2620  --PostgreSQL_db1_shared_to_all
+select 2620  --PostgreSQL_db1_shared_to_alld
