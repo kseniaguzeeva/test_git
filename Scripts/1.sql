@@ -1,1 +1,0 @@
-SELECT * FROM cityData.citizens WHERE name = :MaxSmith
