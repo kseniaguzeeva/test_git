@@ -370,10 +370,10 @@
 					"enabled": true,
 					"save-password": true,
 					"properties": {
+						"jumpServer.count": 0.0,
 						"host": "db1.dev.dbeaver.infra",
 						"port": 22.0,
 						"authType": "PUBLIC_KEY",
-						"jumpServer.count": 0.0,
 						"implementation": "sshj",
 						"shareTunnels": true,
 						"localHost": "",
