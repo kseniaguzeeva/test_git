@@ -1,1 +1,1 @@
-select * from sakila.actor
+select * from sakila.actor;
