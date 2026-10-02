@@ -252,7 +252,7 @@
 			"extensions": {
 				"ai.assistant": {
 					"confirmed": true,
-					"mcpEnabled": false,
+					"mcpEnabled": true,
 					"scope": "CURRENT_DATABASE"
 				}
 			}
@@ -414,7 +414,10 @@
 			"auto-close-transactions": true,
 			"close-transactions-period": 1800,
 			"auto-close-connections": true,
-			"close-connections-period": 14400
+			"close-connections-period": 14400,
+			"security": {
+				"permission-restrictions": []
+			}
 		},
 		"prod": {
 			"name": "Production",
@@ -429,7 +432,10 @@
 			"auto-close-transactions": true,
 			"close-transactions-period": 600,
 			"auto-close-connections": true,
-			"close-connections-period": 3600
+			"close-connections-period": 3600,
+			"security": {
+				"permission-restrictions": []
+			}
 		}
 	}
 }
