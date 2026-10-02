@@ -252,7 +252,7 @@
 			"extensions": {
 				"ai.assistant": {
 					"confirmed": true,
-					"mcpEnabled": true,
+					"mcpEnabled": false,
 					"scope": "CURRENT_DATABASE"
 				}
 			}
